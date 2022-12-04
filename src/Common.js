@@ -8,7 +8,7 @@ Copyright (c) [2022] [cdcentral]
 
 From source code author: Chris Duran
 
-This project and its source code is free for anyone to use and modify.  Please retain this header.
+This project and its source code is free for anyone to use and modify.  Please retain this header and the following links.
 
 This source code can be found in the following youtube video https://youtu.be/7TYL6BPZVmw
 The main channel is https://www.youtube.com/@CDCentral

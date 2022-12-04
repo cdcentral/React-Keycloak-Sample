@@ -8,7 +8,7 @@ Copyright (c) [2022] [cdcentral]
 
 From source code author: Chris Duran
 
-This project and its source code is free for anyone to use and modify.  Please retain this header.
+This project and its source code is free for anyone to use and modify.  Please retain this header and the following links.
 
 This source code can be found in the following youtube video https://youtu.be/7TYL6BPZVmw
 The main channel is https://www.youtube.com/@CDCentral
@@ -28,8 +28,8 @@ class MainApp extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			// logout url to be invoked when user selects the Logout URL link
-			logoutUrl: 'http://localhost:8081/auth/realms/ReactChatApp/protocol/openid-connect/logout?redirect_uri=http://localhost:3000'
+			// logout url to be invoked when user selects the Logout URL link, Replace the below with your keycloak url and the redirect_uri you want it to be
+			logoutUrl: 'http://<your keycloak url>:<keycloak port #>/auth/realms/<Your Realm>/protocol/openid-connect/logout?redirect_uri=<url you want to redirect to>' // sample url: 'http://localhost:8081/auth/realms/ReactChatApp/protocol/openid-connect/logout?redirect_uri=http://localhost:3000'
 		};
 	}
 
