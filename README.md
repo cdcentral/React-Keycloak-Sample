@@ -17,7 +17,6 @@ The version I used for this project is 15.1.1
 
 You can download the binary from keycloak's website here https://www.keycloak.org/archive/downloads-15.1.1.html
 
-#########################################################
 
 # Getting Started with Create React App
 
